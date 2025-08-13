@@ -28,5 +28,15 @@ Official implementation of [Deep Hybrid Model for Fault Diagnosis of Ship's Main
 
 ## Abstract
 ##### Ships play a crucial role in modern society, serving purposes such as marine transportation, tourism, and exploration. Malfunctions or defects in the main engine, which is a core component of ship operations, can disrupt normal functionality and result in substantial financial losses. Consequently, early fault diagnosis of abnormal engine conditions is critical for effective maintenance. In this paper, we propose a deep hybrid model for fault diagnosis of ship main engines, utilizing exhaust gas temperature data. The proposed model utilizes both time-domain features (TDFs) and time-series raw data. In order to effectively extract features from each type of data, two distinct feature extraction networks and an attention module-based classifier are designed. The model performance is evaluated using real-world cylinder exhaust gas temperature data collected from the large ship low-speed two-stroke main engine. The experimental results demonstrate that the proposed method outperforms conventional methods in fault diagnosis accuracy. The experimental results demonstrate that the proposed method improves fault diagnosis accuracy by 6.146% compared to the best conventional method. Furthermore, the proposed method maintains superior performanceeven in noisy environments under realistic industrial conditions. This study demonstrates the potential of using exhaust gas temperature using a single sensor signal for data-driven fault detection and provides a scalable foundation for future multi-sensor diagnostic systems.
+
 ##### Keywords: attention mechanism; deep learning; degradation; exhaust gas temperature; fault diagnosis; feature fusion; hybrid model; marine main engine; time-domain feature
 
+
+## Datasets
+We used a dataset collected from an actual marain ship. To perform fuault diagnosis, the dataset was preprocessed into six versions considering the overlapping percentage.
+1. 0_percent_overlapping.csv
+2. 10_percent_overlapping.csv
+3. 20_percent_overlapping.csv
+4. 30_percent_overlapping.csv
+5. 40_percent_overlapping.csv
+6. 50_percent_overlapping.csv
