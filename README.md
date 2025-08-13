@@ -60,3 +60,21 @@ Official implementation of:
 **Note**
 - `--overlap_percentage`: Indicates the percentage of overlapping segments in the dataset, which is determined based on the degree of equipment degradation in the main engine.
 - `--snr` : Specifies the Signal-to-Noise Ratio (SNR) level, representing the amount of noise added to the data to simulate realistic industrial conditions.
+
+
+## 📜 License
+The code in this repository is released under the MIT License.
+
+## 📖 BibTex
+```
+@article{kim2025deep,
+  title={Deep Hybrid Model for Fault Diagnosis of Ship’s Main Engine},
+  author={Kim, Se-Ha and Kim, Tae-Gyeong and Lee, Junseok and Song, Hyoung-Kyu and Moon, Hyeonjoon and Chun, Chang-Jae},
+  journal={Journal of Marine Science and Engineering},
+  volume={13},
+  number={8},
+  pages={1398},
+  year={2025},
+  publisher={MDPI}
+}
+```
