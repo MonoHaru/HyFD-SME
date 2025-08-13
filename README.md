@@ -32,6 +32,12 @@ Official implementation of [Deep Hybrid Model for Fault Diagnosis of Ship's Main
 ##### Keywords: attention mechanism; deep learning; degradation; exhaust gas temperature; fault diagnosis; feature fusion; hybrid model; marine main engine; time-domain feature
 
 
+## Contributions
+- ##### We propose a hybrid model for fault diagnosis of a ship’s main engine. Since the proposed hybrid model consists of two separate feature extractors for time-series raw data and TDF, it can effectively extract features that lead to achieving high fault diagnosis accuracy.
+- ##### We analyzed the performance of the proposed model by additionally considering the environment with noise signals. We demonstrated through simulation that the performance of the proposed model is better than the existing methods even in noisy environments.
+- ##### In order to evaluate the performance of the proposed hybrid model, we created training data by simulating six main engine abnormal classes according to the degree of equipment degradation based on the actual data collected from a two-stroke ship diesel engine. We trained and verified our proposed model using the data created based on the actual collected data.
+
+
 ## Datasets
 We used a dataset collected from an actual marain ship. To perform fuault diagnosis, the dataset was preprocessed into six versions considering the overlapping percentage.
 1. 0_percent_overlapping.csv
@@ -40,3 +46,6 @@ We used a dataset collected from an actual marain ship. To perform fuault diagno
 4. 30_percent_overlapping.csv
 5. 40_percent_overlapping.csv
 6. 50_percent_overlapping.csv
+
+
+## Train
