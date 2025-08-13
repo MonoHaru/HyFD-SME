@@ -51,4 +51,12 @@ Official implementation of:
 6. `50_percent_overlapping.csv`
 
 
-## Train
+## 🚀 Train
+`python train.py --overlap_percentage [OVERLAP_%] --snr [SNR_dB]`
+
+## 🎯 Test
+`python test.py --overlap_percentage [OVERLAP_%] --snr [SNR_dB] --model_name [MODEL_NAME]`
+
+**Note**
+- `--overlap_percentage`: Indicates the percentage of overlapping segments in the dataset, which is determined based on the degree of equipment degradation in the main engine.
+- `--snr` : Specifies the Signal-to-Noise Ratio (SNR) level, representing the amount of noise added to the data to simulate realistic industrial conditions.
