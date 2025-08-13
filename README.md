@@ -1,12 +1,14 @@
 # Deep Hybrid Model for Fault Diagnosis of Ship's Main Engine
 
 Official implementation of:
+
 📄 [Deep Hybrid Model for Fault Diagnosis of Ship's Main Engine](https://www.mdpi.com/2077-1312/13/8/1398)
+
 📰 JMSE (Journal of Marine Science and Engineering), MDPI, 2025
 
 [\[PDF\]](src/jmse-13-01398-v2.pdf)
 
-## Authors
+## 🧑‍🤝‍🧑 Authors
 
 **First Authors (Equal Contribution)**
 - [Se-Ha Kim](https://github.com/), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [23114417@sju.ac.kr](mailto:23114417@sju.ac.kr)
@@ -43,10 +45,10 @@ Official implementation of:
 ## 📁 Datasets
 1. `0_percent_overlapping.csv`
 2. `10_percent_overlapping.csv`
-3. 20_percent_overlapping.csv
-4. 30_percent_overlapping.csv
-5. 40_percent_overlapping.csv
-6. 50_percent_overlapping.csv
+3. `20_percent_overlapping.csv`
+4. `30_percent_overlapping.csv`
+5. `40_percent_overlapping.csv`
+6. `50_percent_overlapping.csv`
 
 
 ## Train
