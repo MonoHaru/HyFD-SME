@@ -11,8 +11,8 @@ Official implementation of:
 ## 🧑‍🤝‍🧑 Authors
 
 **First Authors (Equal Contribution)**
-- [Se-Ha Kim](https://github.com/), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [23114417@sju.ac.kr](mailto:23114417@sju.ac.kr)
 - [Tae-Gyeong Kim](https://github.com/MonoHaru), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [ktk23114418@sju.ac.kr](mailto:ktk23114418@sju.ac.kr)
+- [Se-Ha Kim](https://github.com/), Department of Artificial Intelligence, Sejong University, Seoul 05006, Republic of Korea, [23114417@sju.ac.kr](mailto:23114417@sju.ac.kr)
 
 **Second Author**
 - [Junseok Lee](https://github.com/), Artificial Intelligence Laboratory, Okestro Co., Ltd., Seoul 07335, Republic of Korea, [js.lee6@okestro.com](mailto:js.lee6@okestro.com)
