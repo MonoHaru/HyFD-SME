@@ -54,16 +54,28 @@ Official implementation of:
 ## 🚀 Train
 `python train.py --overlap_percentage [OVERLAP_%] --snr [SNR_dB]`
 
-## 🎯 Test
+## 🧪 Test
 `python test.py --overlap_percentage [OVERLAP_%] --snr [SNR_dB] --model_name [MODEL_NAME]`
 
-**Note**
+**📌 Note**
 - `--overlap_percentage`: Indicates the percentage of overlapping segments in the dataset, which is determined based on the degree of equipment degradation in the main engine.
 - `--snr` : Specifies the Signal-to-Noise Ratio (SNR) level, representing the amount of noise added to the data to simulate realistic industrial conditions.
 
 
+## 🎯 Results
+#### 1. Table 1. Fault diagnosis results for four conventional models and six overlap percentages.
+| Model                    |     0%     |     10%    |     20%    |     30%    |     40%    |     50%    |
+| :----------------------- | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Random Forest Classifier |   98.426   |   96.775   |   95.037   |   92.219   |   89.902   |   88.234   |
+| CNN+BiGRU                |   97.842   |   95.215   |   92.379   |   87.154   |   85.151   |   79.682   |
+| CNN+BiLSTM+Attention     |   98.345   |   95.140   |   92.218   |   91.378   |   88.584   |   83.713   |
+| RSCB+ViT                 |   97.113   |   94.264   |   91.671   |   84.737   |   81.430   |   73.781   |
+| **Ours**                 | **99.148** | **98.976** | **98.293** | **97.574** | **96.857** | **94.380** |
+
+
 ## 📜 License
 The code in this repository is released under the MIT License.
+
 
 ## 📖 BibTex
 ```
