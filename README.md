@@ -42,6 +42,9 @@ Official implementation of:
 - ##### In order to evaluate the performance of the proposed hybrid model, we created training data by simulating six main engine abnormal classes according to the degree of equipment degradation based on the actual data collected from a two-stroke ship diesel engine. We trained and verified our proposed model using the data created based on the actual collected data.
 
 
+## 🧭 Overview
+<img src="https://github.com/MonoHaru/CCTV-EDR/blob/main/assets/process.png" alt="process" width="800">
+
 ## 📁 Datasets
 1. `0_percent_overlapping.csv`
 2. `10_percent_overlapping.csv`
