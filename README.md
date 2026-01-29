@@ -43,7 +43,7 @@ Official implementation of:
 
 
 ## 🧭 Overview
-<img src="https://github.com/MonoHaru/HyFD-SME/blob/main/assets/overview.png" alt="overview" width="600">
+<img src="https://github.com/MonoHaru/HyFD-SME/blob/main/assets/overview.png" alt="overview" width="500">
 
 ## 📁 Datasets
 1. `0_percent_overlapping.csv`
