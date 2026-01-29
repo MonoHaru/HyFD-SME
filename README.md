@@ -63,7 +63,7 @@ Official implementation of:
 
 
 ## 🎯 Results
-#### 1. Table 1. Fault diagnosis results for four conventional models and six overlap percentages.
+#### Table 1. Fault diagnosis accuracy (%) results for four conventional models and six overlap percentages.
 | Model                    |     0%     |     10%    |     20%    |     30%    |     40%    |     50%    |
 | :----------------------- | :--------: | :--------: | :--------: | :--------: | :--------: | :--------: |
 | Random Forest Classifier |   98.426   |   96.775   |   95.037   |   92.219   |   89.902   |   88.234   |
@@ -71,6 +71,16 @@ Official implementation of:
 | CNN+BiLSTM+Attention     |   98.345   |   95.140   |   92.218   |   91.378   |   88.584   |   83.713   |
 | RSCB+ViT                 |   97.113   |   94.264   |   91.671   |   84.737   |   81.430   |   73.781   |
 | **Ours**                 | **99.148** | **98.976** | **98.293** | **97.574** | **96.857** | **94.380** |
+
+
+#### Table 2. Fault dignosis accuracy (%) results with different SNRs (dB) in 10% overlapping percentage.
+| Model                    |    -4 dB   |    -2 dB   |    0 dB    |    2 dB    |    4 dB    |
+| :----------------------- | :--------: | :--------: | :--------: | :--------: | :--------: |
+| Random Forest Classifier |   80.727   |   81.791   |   83.535   |   85.125   |   87.334   |
+| CNN+BiGRU                |   80.110   |   81.505   |   83.471   |   85.083   |   86.800   |
+| CNN+BiLSTM+Attention     |   81.693   |   83.646   |   86.019   |   87.846   |   89.586   |
+| RSCB+ViT                 |   79.339   |   85.955   |   82.150   |   85.739   |   86.551   |
+| **Ours**                 | **97.292** | **97.323** | **97.584** | **97.880** | **98.337** |
 
 
 ## 📜 License
